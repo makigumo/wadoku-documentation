@@ -1,0 +1,49 @@
+= Typographie
+Dan
+v1.0, 2015-06-21
+:toc:
+
+Eine Übersicht über die typographischen Konventionen.
+
+== Geschütztes (schmales) Leerzeichen
+
+Unicode-Wert: 0x202F NARROW NO-BREAK SPACE
+
+Verwendung:
+
+* Datum, `21. 6. 2015`.
+* Abkürzung, `o. Ä.`.
+* Abkürzung, mit Nummer `Abs. 1`.
+* Zahl mit Einheitenzeichen, `2 kg`.
+
+== Chemische Summenformeln
+
+Verwendung tiefgestellter arabischer Ziffern für den Index.
+
+ NH₄
+
+== Bis-Strich
+
+Halbgeviertstrich ohne Leerzeichen.
+
+Unicode-Wert: 0x2013 EN DASH
+
+ 1483–1546
+
+== Apostroph
+
+Verwendung des typographischen Apostrophs `’`.
+
+Unicode-Wert: 0x2019 RIGHT SINGLE QUOTATION MARK
+
+== Nakaten
+
+* im Japanischtext:
+  * 0xFF65 HALFWIDTH KATAKANA MIDDLE DOT
+* im Deutschtext/Romaji:
+  * 0x00B7 MIDDLE DOT
+
+== Ellipse
+
+Unicode-Wert: 0x2026 HORIZONTAL ELLIPSIS
+

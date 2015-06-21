@@ -1,0 +1,58 @@
+= Notation der Einträge
+Dan
+v1.0, 2015-02-26
+
+:imagesdir: ./images
+:icons: font
+
+Eine kurze Beschreibung der angezeigten Elemente eines Eintrags. 
+
+[[notation]]
+== Haupteintrag
+
+.Notationsbeispiel eines Eintrags.
+image:notation.png[Notationsbeispiel,role="related"]
+
+
+1. Lesung ggf. mit Darstellung des Akzentverlaufs
+  * [blue]#~# (Tilde) steht vor der Konjugationsendung (活用語尾).
+  * [blue]#・# (Nakaten/Nakaguro) trennt Wortbestandteile.
+  * [blue]#|# (senkrechter Strich) trennt Kanjilesungen.
+  * Anzahl der Homophone als hochgestellte Zahl.
+2. (optionale) numerische Angabe des Morenakzents
+  * aktuell dargestellter Morenakzent in [blue]#Blau#.
+  * durch Klick auf grau unterlegte Akzentangaben umschaltbare Darstellung des Akzentverlaufs.
+3. Lesungshilfe in Rōmaji (vgl. <<Umschrift>>)
+4. Schlagwort in japanischer Schreibung (Kanji, Kana) ggf. mit zusätzlichen Markierungen.
+  * [blue]#×# bzw. [blue]#╳# (Kreuz) folgendes Kanji gehört nicht zu den Jōyō-Kanji (常用漢字表).
+  ** nach dem Standard von 2010 ((改定)常用漢字表).
+  * [blue]#△# (Dreieck) folgendes Kanji hat eine irreguläre Lesung (nicht in der Jōyō-Kanji-On-Kun-Liste 常用漢字音訓表).
+  * [blue]#〈 〉# (Spitzklammer) abweichende japanische Lesung.
+  * [blue]#（ ）# (runde Klammer) Okurigana, die teilweise weggelassen werden
+  * [blue]#｛ ｝# (geschweifte Klammer) bzw. [blue]#《 》# (doppelte Spitzklammer) übliche Kanjischreibung (im Anhang der 常用漢字表).
+  * Anzahl der Homographe als hochgestellte Zahl.
+  * vgl. Beschreibung in <<DaMidashigo>>
+5. (optionale) Angabe der Wortart (siehe <<Übersicht der Wortart/Part-of-Speech-Angaben>>)
+6. deutsche Bedeutung(en).
+  * [blue]#[A..Z]# (eckige Klammer) Trennung der Bedeutungen nach Wortart.
+  ** (optional) wortartspezifischer Akzent.
+  ** gefolgt von einer Beschreibung der Wortart o.Ä.
+  * [blue]#[1..n]# (eckige Klammer) Trennung unterschiedlicher Bedeutungen.
+  ** (optional) bedeutungsspezifischer Akzent.
+  * [blue]#//# bzw. [blue]#||# (doppelter Schrägstrich/senkrechter Strich) Trennung von Bedeutungen mit inhaltlicher Nähe.
+  * [blue]#;# (Semikolon) Trennung einzelner Übersetzungen.
+7. (optional) Verweise auf verwandte Einträge
+  * [blue]#→# (einfacher Rechtspfeil) für alternative Lesungen
+  * [blue]#⇒# (dicker Rechtspfeil) für Synonyme
+  * [blue]#⇔# (dicker Doppelpfeil) für Antonyme
+  * [blue]#☞# (Zeigefinger) für alternative Kana-Transkriptionen von Fremdworten
+
+=== Untereinträge
+* [blue]#►# Verwendung am Anfang eines Kompositums.
+* [blue]#◀# Verwendung am Ende eines Kompositums.
+* [blue]#◇# Verwendungsbeispiele, Beispielsätze usw.
+
+[[umschrift]]
+== Umschrift/Transkription
+
+Die verwendete Umschrift ist eine modifizierte Hepburn-Umschrift.
