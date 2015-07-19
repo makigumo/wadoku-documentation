@@ -36,14 +36,23 @@ Verwendung des typographischen Apostrophs `’`.
 
 Unicode-Wert: 0x2019 RIGHT SINGLE QUOTATION MARK
 
+ wen’ge, Hans’ Auto
+
 == Nakaten
 
 * im Japanischtext:
-  * 0xFF65 HALFWIDTH KATAKANA MIDDLE DOT
+** 0xFF65 HALFWIDTH KATAKANA MIDDLE DOT
 * im Deutschtext/Romaji:
-  * 0x00B7 MIDDLE DOT
+** 0x00B7 MIDDLE DOT
 
 == Ellipse
 
 Unicode-Wert: 0x2026 HORIZONTAL ELLIPSIS
 
+ Haus…, …anfang
+
+== Trennstrich (Divis) am Wortende oder -anfang
+
+Unicode-Wert: 0x2011 NON-BREAKING HYPHEN
+
+ Wortende oder ‑anfang

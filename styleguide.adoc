@@ -1,0 +1,44 @@
+= Styleguide
+Dan
+v1.0, 2015-07-19
+:toc:
+
+Stilistische Richtlinien für das Verfassen von Einträgen.
+
+== Ortsnamen, Stadtnamen, Gebietsnamen
+
+NOTE: Alle Ortsnamen sind in ihrer <<notation.adoc#umschrift,Rōmaji-Umschrift>> zu schreiben.
+Klassifikationsendungen werden weggelassen.
+
+=== Ortsangaben
+
+==== Lage
+* Norden
+* Nordosten
+* Osten
+* Südosten
+* Süden
+* Südwesten
+* Westen
+* Nordwesten
+* Zentrum
+
+=== Verwaltungseinheiten
+
+国「(の)くに」:: (historisch) Provinz
+
+==== 都道府県 Präfekturen
+都 (と):: Hauptstadtpräfektur, Präfektur Tōkyō
+道 (どう):: Präfektur Hokkaidō
+府 (ふ):: Präfektur (Ōsaka, Kyōto)
+県 (けん):: Präfektur
+郡 (ぐん):: Landkreis, Gemeinde
+
+==== 市町村 Städte
+市:: Stadt
+町:: Ortschaft
+村:: Gemeinde
+区:: Stadtbezirk
+NOTE: von Tōkyō: Verwaltungsbezirk
+町(名):: Stadtviertel
+地(名):: Stadtteil
