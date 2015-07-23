@@ -15,6 +15,10 @@ Verwendung:
 * Abkürzung, `o. Ä.`.
 * Abkürzung, mit Nummer `Abs. 1`.
 * Zahl mit Einheitenzeichen, `2 kg`.
+* Prozentangaben, `2 %`.
+** `5 %-Klausel`
+* Gradangaben, `45°`
+** Temperaturangaben, `35 °C`
 
 == Chemische Summenformeln
 
