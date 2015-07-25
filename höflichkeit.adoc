@@ -1,0 +1,54 @@
+= Höflichkeitssprache (敬語/敬譲語)
+Dan
+v1.0, 2015-07-25
+:toc:
+
+Formen der japanischen Höflichkeitssprache und ihre Notation.
+
+Normalerweise drei Klassen (im Wadoku markiert):
+
+* 尊敬語
+* 謙譲語
+* 丁寧語
+
+Alternativ fünf Klassen in _「敬語の指針」_ <<keigo-guide>>:
+
+* 尊敬語
+* 謙譲語I
+* 謙譲語II (丁重語)
+* 丁寧語
+* 美化語
+
+== 謙譲語/謙遜語
+* bescheiden-höfliche Sprache.
+
+NOTE: _「敬語の指針」_ <<keigo-guide>> unterteilt noch in 謙譲語I und 謙譲語II (丁重語).
+
+=== Notation
+
+`<Usage: besch.-höfl.>`
+
+TIP: Angabe als 'へりくだっていう語' (Daijirin/Daijisen/Meikyō), '謙称' (Kōjien/Shin-meikai) oder '謙遜していう語' usw.
+
+== 尊敬語
+* ehrerbietige Sprache.
+
+TIP: Angabe meist als '「…」の尊敬語'.
+
+=== Notation
+
+`<Usage: ehrerb.-höfl.>`
+
+== 丁寧語
+* höfliche Sprache.
+
+=== Notation
+
+`<Usage: höfl.>`
+
+TIP: Angabe als '「…」を丁寧にいう語' usw.
+
+== Bibliographie
+
+[bibliography]
+- [[[keigo-guide]]] http://keigo.bunka.go.jp/guide.pdf[「敬語の指針」], 2007, The Agency for Cultural Affairs.
