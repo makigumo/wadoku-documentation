@@ -30,7 +30,8 @@ Klassifikationsendungen werden weggelassen.
 ==== 都道府県 Präfekturen
 都 (と):: Hauptstadtpräfektur, Präfektur Tōkyō
 道 (どう):: Präfektur Hokkaidō
-府 (ふ):: Präfektur (Ōsaka, Kyōto)
+支庁 (しちょう):: Unterpräfektur
+府 (ふ):: Stadtpräfektur (Ōsaka, Kyōto)
 県 (けん):: Präfektur
 郡 (ぐん):: Landkreis, Gemeinde
 

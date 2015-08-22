@@ -1,0 +1,31 @@
+= Jahreszeitenwörter (季語)
+Dan
+v1.0, 2015-08-22
+:toc:
+
+Die Markierung von Jahreszeitenwörtern erfolgt auf Bedeutungsebene.
+
+== Format
+
+```
+<SeasonW %part%: %season%>
+```
+
+=== Pflanzenteile `%part%`
+
+optionale Angabe, wenn sich das Jahreszeitenwort auf einen bestimmten
+Pflanzenteil bezieht.
+
+* `Blüte`
+* `Frucht`
+* `Blatt`
+
+=== Jahreszeiten
+
+zwingende Angabe.
+
+* `Neujahr`
+* `Frühling`
+* `Sommer`
+* `Herbst`
+* `Winter`
