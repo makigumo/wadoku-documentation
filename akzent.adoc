@@ -1,0 +1,10 @@
+= Akzentangaben
+Dan
+v1.0, 2015-08-19
+:toc:
+
+Der Akzent im Japanischen beschränkt sich im wesentlichen auf einen Hoch-Tief- oder
+Tief-Hoch-Wechsel.
+
+Der Standardakzent (平板〈式／型（ガタ）〉アクセント) ist ein Tief-Hoch-Wechsel auf der ersten Mora, markiert mit dem
+Wert 0.

@@ -5,7 +5,7 @@ v1.0, 2015-02-26
 :imagesdir: ./images
 :icons: font
 
-Eine kurze Beschreibung der angezeigten Elemente eines Eintrags. 
+Eine kurze Beschreibung der angezeigten Elemente eines Eintrags.
 
 [[notation]]
 == Haupteintrag

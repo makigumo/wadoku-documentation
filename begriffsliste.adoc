@@ -1,0 +1,20 @@
+= Liste bevorzugt zu verwendender Begriffe
+Dan
+v1.0, 2015-08-16
+:toc:
+
+Zur Gewährleistung einer einheitlichen Beschreibungssprache ist in den
+Textbeschreibungen, Ergänzungen usw. wenn möglich auf die in dieser Liste
+angegebene Schreibweise zurückzugreifen.
+Dies betrifft insbesondere Begriffe zur Erläuterung der japanischen Kultur.
+
+== wiederkehrende Feste
+
+盆:: Bonfest (anstelle von Bon-Fest, O-Bon, O·Bon, O-Bon-Fest, Obon-Fest).
+
+== Gerichte/Speisen
+
+== Geschichte
+
+奉行:: Kommissar.
+時代:: …-Zeit.

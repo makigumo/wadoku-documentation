@@ -19,8 +19,9 @@ Pflanzenteil bezieht.
 * `Blüte`
 * `Frucht`
 * `Blatt`
+* `Knospe`
 
-=== Jahreszeiten
+=== Jahreszeiten `%season%`
 
 zwingende Angabe.
 
