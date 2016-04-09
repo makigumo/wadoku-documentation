@@ -1,0 +1,65 @@
+= Wörterbuchstruktur
+Dan
+v1.0, 2016-04-09
+:toc:
+
+Aufbau des Wörterbuchs und Eintragsstruktur.
+
+== Eintrag/Entry/Datensatz
+
+Ein Eintrag (Entry) ist ein Datensatz in der Datenbank.
+Die Art des Eintrags wird hauptsächlich durch die Art der Verlinkung bestimmt.
+
+* Haupteintrag
+    ** Ein Eintrag, dem andere Einträge, insbesondere Ableitungen und Komposita, untergeordnet sind.
+* Komposita
+    ** Einträge, die den Haupteintrag als Kompositum am Anfang oder am Ende enthalten.
+    ** Mit Wortartangabe.
+* Ableitungen
+    ** Typischerweise ohne Wortartangabe
+    ** für Meishi
+        *** mit _suru_
+        *** mit _shita_
+        *** mit _shite_
+        *** mit _teki_
+        *** mit _no_
+        *** mit _e_
+        *** mit _kara_
+    ** für Keiyōdōshi
+        *** mit _na_
+        *** mit _no_
+        *** mit _ni_
+        *** mit _da_
+        *** mit _de_
+    ** für Keiyōshi
+        *** mit _ge_
+        *** mit _garu_
+        *** mit _ku_
+        *** Nominalisierung mit _sa_
+        *** Nominalisierung mit _mi_
+    ** für Fukushi
+        *** mit _to_
+        *** intrans. V. mit _suru_
+
+* Verwendungsbeispiele
+    ** kurze Phrasen
+* Beispielsätze
+    ** Sätze, Schildaufschriften usw.
+* idiomatische Wendungen
+* Sprichwörter
+
+== Haupteintrag
+
+Enthält das Hauptlemma und ist das Stichwort, dem weitere Einträge/Datensätze
+untergeordnet werden können. Typischerweise wird die Wortart angegeben. Ausnahmen
+können hier beispielsweise Organisationsnamen, Gesetze usw. sein.
+
+== Untereintrag
+
+Zu den Untereinträgen zählen Ableitungen, Komposita, Verwendungsbeispiele,
+idiomatische Wendungen, Beispielsätze, Sprichwörter usw. Der Typ des Untereintrags
+wird durch das Typfeld im Link auf den Haupteintrag bestimmt.
+
+== Ableitungen
+
+== Komposita
