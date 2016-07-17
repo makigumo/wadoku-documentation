@@ -1,0 +1,202 @@
+= Formatierung eines (neuen) Eintrags
+Dan
+v1.0, 2016-07-17
+:toc:
+:lang=de:
+
+== Vorbemerkungen
+
+Diese Informationen sind für Editoren und ambitionierte Nutzer gedacht, um diesen beim Anlegen und Pflegen von Einträgen zu helfen. Andere sollen sich nicht abschrecken lassen, Einträge können auch immer unformatiert vorgeschlagen werden, diese werden dann im Zuge der Prüfung angepasst.
+
+Im Allgemeinen gilt, ein Eintrag sollte so einfach wie möglich strukturiert sein. Beim Erstellen/Bearbeiten sollte von der Vorschau-/Previewfunktion Gebrauch gemacht werden, um sicherzugehen, dass das Ergebnis den Erwartungen entspricht.
+
+NOTE: Für weitergehende Informationen siehe auch link:notation.html[Notation].
+
+== Lemma und Schreibungen/見出し語と表記等
+
+[[Lemma]]
+=== Lemma/見出し語 ===
+
+Dieses Feld dient als Stichwort für den jeweiligen Eintrag und wird als dieses angezeigt. In einfachen Fällen (z.B. nur eine Schreibung) kann auf dieses Feld verzichtet werden, es wird dann für die Anzeige auf die Einträge im Japanisch/表記-Feld zurückgegriffen.
+
+- Trennung mehrerer Midashigo durch Semikolon: `;`.
+- Kennzeichnung von Kanji, die nicht zu den Jōyō-Kanji gehören durch vorangestelltes Kreuz: `×`.
+- Kennzeichnung von Jōyō-Kanji mit einer Lesung, die nicht in der Jōyō-Onkun-Liste aufgeführt ist, durch Dreieck `△.`
+- Kennzeichnung von üblichen Kanjischreibungen (laut 常用漢字表・付表) durch geschweifte Klammern `{..}`.
+- Kennzeichnung üblicher Kun-Lesungen durch Spitzklammern: `〈..〉`.
+- Kennzeichnung optionaler Okurigana durch runde Klammern: `(..)`.
+- Eigennamen werden nicht ausgezeichnet.
+- chinesische Fremdwörter werden nicht ausgezeichnet.
+
+=== Japanisch/表記
+
+Dieses Feld stellt den Suchindex, und enthält alle relevanten Schreibungen. Alle durch <<Lemma>> spezifizierten Schreibungen müssen hier enthalten sein.
+
+- Trennung mehrere Schreibungen durch Semikolon: `;`.
+- Schreibungen mit Nicht-Jōyō-Kanji bzw. irregulärer Lesung sind gesondert am Ende in Klammern zu setzen. Dieser Schritt ist optional, da das System, diese Markierung automatisch vornimmt.
+
+[[Lesung]]
+=== Lesung/読み方
+
+In diesem Feld wird die moderne Kanaschreibung (= Kanalesung) in Hiragana eingetragen.
+
+=== Hatsuon/発音
+
+Hier wird die <<Lesung>> um spezielle Markierungen für eine Transkription erweitert. Diese Markierungen stehen typischerweise vor dem Markierten.
+
+==== Eigennamen/固有名詞
+
+Eigennamen und satzwertige Einträge, typischerweise sind das Beispielsätze, werden am Anfang großgeschrieben. Die Markierung erfolgt durch vorangestelltes `[Gr]` (ohne folgendes Leerzeichen).
+
+- `[Gr]とうきょう` -> Tōkyō
+
+==== Joshi/助詞
+
+Die Joshi は und へ werden durch `[Jo]` markiert, um diese von den normalen Hiraganasilben zu unterscheiden. Bei (alleinstehendem) を ist keine Markierung nötig.
+
+- `[Jo]は` -> wa
+- `[Jo]へ` -> e
+
+==== Devokalisierung/イ・ウの無声化
+
+Die Devokalisierung von い- oder う-Silben kann durch `[Dev]` gekennzeichnet werden.
+
+- `[Dev]ふく'ざつ` -> f~u~kuzatsu
+
+==== Nichtnasalisiertes G
+
+Mittels `[NN]` wird ein nicht nasalisiertes g in Fremdwörtern markiert.
+
+- `あ[Dev]すぱら[NN]がす` -> as~u~para’gasu
+
+==== Akzentwechsel/アクセント変更
+
+Zur Markierung mehrfacher Akzentwechsel wird `[Akz]` verwendet. Im Wesentlichen, beginnt dabei die Morenzählung für zusammengesetzte Akzente wieder von vorn.
+
+- `<だい'どう'みゃく>･えん[Akz]しょう'こう'ぐん` `[6—3]`-> [underline]##だ## [overline]##いどうみゃく･えん## ･[underline]##しょ## [overline]##うこうぐん##
+
+==== Markierung von Haupteintragsbestandteilen
+
+Bestandteile des Haupteintrags, in Komposita, Ableitungen, Verwendungsbeispielen usw. werden mittel `<` und `>` umschlossen.
+
+- die Markierung ist zwingend, bei Verweis auf einen (1) Haupteintrag.
+** `速度計: <そくど>・けい`
+- bei (zweiteiligen) Komposita kann die Markierung entfallen, wenn deren Bestandteile dem jeweiligen Haupteintrag gleichen.
+** `制限速度: せいげん･そくど`
+** `制限速度: <せいげん>･<そくど>`
+** `制限速度: <1:せいげん>･<2:そくど>`
+- bei mehreren Markierungen, also Verweisen auf Haupteinträge, kann optional eine Indexnummer angegeben werden.
++
+[IMPORTANT]
+  Die Verweise müssen entsprechend sortiert sein.
++
+** `制限速度: <1:せいげん>･<2:そくど>`
+
+TODO
+
+=== In der Bearbeitungsoberfläche
+
+Das System versucht einige typische Syntax- und logische Fehler zu erkennen und gibt dem Editor entsprechende Meldungen aus.
+Für einige Fehler gibt es die Möglichkeit diese per `Fix`-Knopf automatisiert beheben zu lassen.
+
+Es gibt drei Meldungskategorien.
+[horizontal]
+Success:: Keine Fehler erkannt. Der Eintrag kann so gespeichert werden.
+Warning:: Der Fehler kann gegebenenfalls ignoriert werden. Der Eintrag kann so gespeichert werden.
+Error:: Der Fehler muss behoben werden, bevor der Eintrag gespeichert werden kann.
+
+==== Lemma und Schreibungen
+
+Diese werden einheitlich bearbeitet, unterschieden durch folgende Typisierung:
+[horizontal]
+midashigo:: Lemma/見出し語 (Formatierung siehe oben).
+read:: Jōyō-Kanji mit irregulärer Lesung.
+irreg:: für Nicht-Jōyō-Kanji.
+long:: für Kyūji-Varianten.
+mistake:: für häufige Falschschreibungen.
+keine:: Kana oder Jōyō-Kanji.
+
+- Beim Hinzufügen eines neuen Midashigo versucht das System eine automatisierte Kennzeichnung, so dass in den meisten Fällen eine Angabe von Hand unnötig ist. Das Ergebnis sollte aber überprüft werden.
+- Das System kennt alle Jōyō-Kanji mit ihren Lesungen aus der Jōyō-Onkun-Liste sowie die gängigsten Kyūji/Itaiji-Varianten. Zugriff auf Kyūji/Itaiji bzw. von diesen auf die Standardform ist durch die *-Knöpfe möglich.
+- *mistake*-Einträge dürfen nicht als Midashigo eingetragen werden.
+
+==== Deutsch-Feld, allgemeine Struktur
+
+===== Übersetzugen
+
+- Bedeutungen sind mit einem Punkt (.) zu beenden. Ist der Punkt Bestandteil der Übersetzung sind zwei Punkte zu setzen. Für andere Satzzeichen, reicht dieses aus.
++
+--------------------------------------
+Beispiel.
+Das ist dein Beispielsatz..
+
+Ist das eine Frage?
+--------------------------------------
+- Einzelne Übersetzungen sind durch Semikolon (;) zu trennen:
++
+--------------------------------------
+müde; schläfrig.
+--------------------------------------
+- Einzelne Bedeutungen sind durch `[n]` (n = fortlaufende natürliche Zahl, beginnend bei 1) zu trennen.
++
+--------------------------------------
+[1] Bedeutung 1. [2] Bedeutung 2. … [n] Bedeutung n.
+--------------------------------------
+- Bedeutungen mit semantischer Nähe sind durch `//`` zu trennen.
++
+--------------------------------------
+Backen. // Bäcker.
+--------------------------------------
+- Bei mehreren Wortarten eines Lemmas sind die Bedeutungen durch `[X]` (X = fortlaufender Großbuchstabe, beginnend bei A) zu trennen. Dabei ist die korrespondierende Wortart in einem `<Descr.: >`-Element anzugeben.
++
+--------------------------------------
+[A] (<Descr.: als Wortart 1>) Bedeutung 1. [B] (<Descr.: als Wortart 2>) Bedeutung 2.
+--------------------------------------
+- Bedeutungsspezifische Akzentangaben sind im geklammerten Kopfbereich einer Bedeutung mittels `<Akz: >`-Element aufzuführen.
++
+--------------------------------------
+[A] (<Descr.: als Wortart 1>; <Akz: 0>) Bedeutung 1. [B] (<Descr.: als Wortart 2>) [1] Bedeutung 2. [2] (<Akz: 1,2>) Bedeutung 3.
+--------------------------------------
+
+===== Genus-/Numerusangabe bei Nomen
+
+Es werden die folgenden drei Notationen unterstützt. Die Genusangabe ist obligatorisch für Einträge der Wortart Nomen (名詞) sowie für Nominalphrasen (名詞句).
+--------------------------------------
+Haus{n}
+Haus<Gen.: n>
+<HW n: Haus>
+--------------------------------------
+
+* Genus/性
+[horizontal]
+m:: maskulin, männlich.
+n:: neutral, sächlich.
+f:: feminin, weiblich.
+
+* Numerus/数
+[horizontal]
+pl:: Plural, Mehrzahl.
++
+Ein Pluraletantum wird ohne Genus nur mit Numerus gekennzeichnet.
++
+--------------------------------------
+Kosten{pl}
+Kosten<Gen.: pl>
+<HW pl: Kosten>
+--------------------------------------
+
+* Artikelverwendung/冠詞の使用
++
+Wird ein Nomen ohne Artikel verwendet, normalerweise z.B. bei Städte- und Ländernamen, wird ein `NAr` angehängt.
++
+--------------------------------------
+Frankreich{nNAr}
+Berlin{nNAr}
+--------------------------------------
++
+Für Platzhalter von Nomen wie `etw.` oder `jmd.` ist eine Artikelangabe unnötig und mit `NArN` markiert.
++
+--------------------------------------
+jmd.{NArN}, der …
+etw.{NArN}, das …
+--------------------------------------
