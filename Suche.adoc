@@ -1,0 +1,67 @@
+= Suche =
+
+== Einfache Suche ==
+
+Standardsuchstrategie:: Suche des Suchterms im Deutsch-, Japanisch- und Lesungsfeld
+sowie bei Fremdwörtern (外来語) im Wortherkunftsfeld.
+
+=== Feldsuche ===
+
+Die Suche kann durch eine Auswahlbox auf das Japanischfeld (=Schreibungsfeld),
+das Lesungsfeld (Hiragana) sowie das Deutschfeld beschränkt werden.
+
+== Erweiterte Suche ==
+
+=== Schlüsselwortsuche ===
+
+Mögliche Suchterme sind der entsprechenden Übersichtsseite zu entnehmen.
+Die Schlüsselwörter sind in verschiedene Kategorien geteilt.
+
+Alle Schüsselwörter beginnen mit zwei Doppelpunkten `::`.
+
+- Domänen/Sachgebiete, z.B. `::Math.`
+- Sprachregister, z.B. `::coll`
+- Verwendungshinweise, z.B. `::besch.-höfl.`
+- Jahreszeitenwörter, z.B. `::newyear`
+- Wortarten, z.B. `::noun`
+
+Durch Kombination, auch mit einem einfachen Suchterm, lassen sich die
+Suchergebnisse weiter einschränken.
+
+=== Filtersuche ===
+
+Es stehen verschiedene Filter zur Verfügung, um die Suche einzugrenzen.
+Filter haben die Form `Filtername:Suchterm`.
+
+Folgende Filter stehen allen Nutzern zur Verfügung.
+
+- `hyouki:Schreibung`, z.B. `hyouki:日本`
+- `yomi:Lesung`, z.B. `yomi:にほん`
+- `etym:(Herkunftssprache|Herkunftswort)`, z.B. `etym:Dtsch.` oder `etym:lucky`
+
+=== Suche nach selbst angelegten Einträgen (registrierte Nutzer) ===
+
+`@@me`
+
+== Erweiterte Suche (Editoren) ==
+
+Den Editoren stehen weitergehende Suchmöglichkeiten offen.
+
+=== Autorensuche ===
+
+`@@Nutzername`
+
+=== Letzter-Editor-Suche ===
+
+selbst bearbeitete Einträge:: `@:me`
+
+=== Flagsuche ===
+
+Suche nach Einträgen mit bestimmten Eigenschaften.
+
+`flag:Typ`
+[horizontal]
+`deleted`:: als gelöscht markierte Einträge.
+`nojindex`:: Einträge mit leerem Japanisch-/Lesungssuchindex.
+`nodindex`:: Einträge mit leerem Deutschsuchindex.
+`nocache`:: Einträge ohne generiertes HTML.
