@@ -65,3 +65,35 @@ Suche nach Einträgen mit bestimmten Eigenschaften.
 `nojindex`:: Einträge mit leerem Japanisch-/Lesungssuchindex.
 `nodindex`:: Einträge mit leerem Deutschsuchindex.
 `nocache`:: Einträge ohne generiertes HTML.
+
+=== Referenztypsuche/Relationstypsuche ===
+
+Suche nach Einträgen, die eine Referenz auf einen anderen Eintrag enthalten.
+
+`reltype:Typ`
+[horizontal]
+`head`:: Anfang eines Kompositums.
+`tail`:: Ende eines Kompositums.
+`sa`:: Nominalisierung mit さ.
+`suru`:: Ableitung mit する.
+`shite`:: Ableitung mit して.
+`shita`:: Ableitung mit した.
+`teki`:: Ableitung mit 的.
+`to`:: Ableitung mit と.
+`taru`:: Ableitung mit たる.
+`na`:: Ableitung mit な.
+`ni`:: Ableitung mit に.
+`no`:: Ableitung mit の.
+`da`:: Ableitung mit だ.
+`de`:: Ableitung mit で.
+`e`:: Ableitung mit へ.
+`kara`:: Ableitung mit から.
+`garu`:: Ableitung mit がる.
+`ge`:: Ableitung mit げ.
+`ku`:: Ableitung mit く.
+`mi`:: Nominalisierung mit み.
+`VwBsp`:: Verwendungsbeispiel.
+`WIdiom`:: idiomatische Wendung.
+`XSatz`:: Beispielsatz.
+`ZSprW`:: Sprichwort.
+`other`:: Unspezifizierter Typ.
