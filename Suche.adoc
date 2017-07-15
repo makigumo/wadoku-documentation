@@ -26,7 +26,7 @@ Alle Schüsselwörter beginnen mit zwei Doppelpunkten `::`.
 - Wortarten, z.B. `::noun`
 
 Durch Kombination, auch mit einem einfachen Suchterm, lassen sich die
-Suchergebnisse weiter einschränken.
+Suchergebnisse weiter einschränken (logisches UND).
 
 === Filtersuche ===
 
@@ -97,3 +97,16 @@ Suche nach Einträgen, die eine Referenz auf einen anderen Eintrag enthalten.
 `XSatz`:: Beispielsatz.
 `ZSprW`:: Sprichwort.
 `other`:: Unspezifizierter Typ.
+
+=== Volltextsuche im XML ===
+
+Suche nach Einträgen, die den Suchterm enthalten.
+
+`ft:Suchterm`
+
+Der Suchterm kann durch folgende Operatoren qualifiziert werden.
+
+[horizontal]
+`+`:: Term ist enthalten.
+`-`:: Term ist nicht enthalten.
+`"`:: Term in doppelten Anführungszeichen wird als Ganzes gesucht, z.B. bei Phrasen. 
