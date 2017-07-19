@@ -24,10 +24,11 @@ Klassifikationsendungen werden weggelassen.
 * Zentrum
 
 === Verwaltungseinheiten
-
+[horizontal]
 国「(の)くに」:: (historisch) Provinz
 
 ==== 都道府県 Präfekturen
+[horizontal]
 都 (と):: Hauptstadtpräfektur, Präfektur Tōkyō
 道 (どう):: Präfektur Hokkaidō
 支庁 (しちょう):: Unterpräfektur
@@ -36,6 +37,7 @@ Klassifikationsendungen werden weggelassen.
 郡 (ぐん):: Landkreis, Gemeinde
 
 ==== 市町村 Städte
+[horizontal]
 市:: Stadt
 町:: Ortschaft
 村:: Gemeinde

@@ -9,12 +9,16 @@ angegebene Schreibweise zurückzugreifen.
 Dies betrifft insbesondere Begriffe zur Erläuterung der japanischen Kultur.
 
 == wiederkehrende Feste
-
+[horizontal]
 盆:: Bonfest (anstelle von Bon-Fest, O-Bon, O·Bon, O-Bon-Fest, Obon-Fest).
 
 == Gerichte/Speisen
 
 == Geschichte
-
+[horizontal]
 奉行:: Kommissar.
 時代:: …-Zeit.
+
+== Klassifikationen
+[horizontal]
+温泉:: Thermalbad.
