@@ -8,9 +8,9 @@
 .. link:Eintragsformatierung.adoc[Hinweise zur Eintragsformatierung]
 .. link:Suche.adoc[Suche]
 .. link:typographie.adoc[Typographie]
-.. link:höflichkeit.adoc[Höflichkeit]()
+.. link:höflichkeit.adoc[Höflichkeit]
 .. link:jahreszeitenwörter.adoc[Jahreszeitenwörter]
-.. link:styleguid.adoc[Styleguide]
+.. link:styleguide.adoc[Styleguide]
 . Anhang/Allgemeines
 .. link:abkürzungen.adoc[Verwendete Abkürzungen]
 .. link:akzent.adoc[Akzentangaben]
