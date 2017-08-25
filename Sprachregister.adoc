@@ -1,0 +1,28 @@
+= Sprachregister (使用域)
+Dan
+v1.0, 2017-08-25
+:toc:
+
+== Notation
+
+```
+<LangNiv: $register$>
+```
+
+== Register
+
+[horizontal]
+`schriftspr.`:: schriftsprachlich, überwiegend in der Schriftsprache oder formellem Umfeld gebraucht.
+`ugs.`:: umgangssprachlich, überwiegend im alltäglichen Gespräch und informellem Umfeld gebraucht.
+`jugendspr.`:: jugendsprachlich, überwiegend von Teenagern untereinander gebraucht.
+`poet.`:: poetisch.
+`vulg.`:: vulgär.
+`Slang`:: Slang.
+`studentenspr.`:: studentensprachlich, überwiegend von Studenten untereinander gebraucht.
+`schülerspr.`:: schülersprachlich, überwiegend von Schülern untereinander gebraucht.
+`seemannsspr.`:: seemannssprachlich, überwiegend von Seemännern untereinander gebraucht.
+`kinderspr.`:: kindersprachlich, überwiegend von Kindern oder diesen gegenüber gebraucht.
+`frauenspr.`:: frauensprachlich, überwiegend von Frauen gebraucht.
+`gaunerspr.`:: gaunersprachlich, überwiegend von Gaunern untereinander gebraucht.
+`geheimspr.`:: geheimsprachlich, überwiegend als Art Geheimcode innerhalb einer Gruppe gebraucht.
+`hofdamenspr.`:: hofdamensprachlich.

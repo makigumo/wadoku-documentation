@@ -7,6 +7,7 @@
 .. link:Suche.adoc[Suche]
 .. link:typographie.adoc[Typographie]
 .. link:höflichkeit.adoc[Höflichkeit]
+.. link:Sprachregister.adoc[Sprachregister]
 .. link:jahreszeitenwörter.adoc[Jahreszeitenwörter]
 .. link:styleguide.adoc[Styleguide]
 . Anhang/Allgemeines
