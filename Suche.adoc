@@ -35,7 +35,9 @@ Filter haben die Form `Filtername:Suchterm`.
 
 Folgende Filter stehen allen Nutzern zur Verfügung.
 
-- `hyouki:Schreibung`, z.B. `hyouki:日本`
+- `hyoki:Schreibung`, z.B. `hyoki:日本`
+- `hyokibegins:Schreibung am Wortanfang`, z.B. `hyokibegins:超`
+- `hyokiends:Schreibung am Wortende`, z.B. `hyokiends:性`
 - `yomi:Lesung`, z.B. `yomi:にほん`
 - `etym:(Herkunftssprache|Herkunftswort)`, z.B. `etym:Dtsch.` oder `etym:lucky`
 
@@ -109,4 +111,4 @@ Der Suchterm kann durch folgende Operatoren qualifiziert werden.
 [horizontal]
 `+`:: Term ist enthalten.
 `-`:: Term ist nicht enthalten.
-`"`:: Term in doppelten Anführungszeichen wird als Ganzes gesucht, z.B. bei Phrasen. 
+`"`:: Term in doppelten Anführungszeichen wird als Ganzes gesucht, z.B. bei Phrasen.
