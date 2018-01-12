@@ -20,12 +20,12 @@ NOTE: Für weitergehende Informationen siehe auch link:notation.html[Notation].
 Dieses Feld dient als Stichwort für den jeweiligen Eintrag und wird als dieses angezeigt. In einfachen Fällen (z.B. nur eine Schreibung) kann auf dieses Feld verzichtet werden, es wird dann für die Anzeige auf die Einträge im Japanisch/表記-Feld zurückgegriffen.
 
 - Trennung mehrerer Midashigo durch Semikolon: `;`.
-- Kennzeichnung von Kanji, die nicht zu den Jōyō-Kanji gehören durch vorangestelltes Kreuz: `×`.
-- Kennzeichnung von Jōyō-Kanji mit einer Lesung, die nicht in der Jōyō-Onkun-Liste aufgeführt ist, durch Dreieck `△.`
+- Kennzeichnung von Kanji, die nicht zu den Jōyō-Kanji gehören durch vorangestelltes Kreuz: `×..`.
+- Kennzeichnung von Jōyō-Kanji mit einer Lesung, die nicht in der Jōyō-Onkun-Liste aufgeführt ist, durch Dreieck `△..`.
 - Kennzeichnung von üblichen Kanjischreibungen (laut 常用漢字表・付表) durch geschweifte Klammern `{..}`.
 - Kennzeichnung üblicher Kun-Lesungen durch Spitzklammern: `〈..〉`.
 - Kennzeichnung optionaler Okurigana durch runde Klammern: `(..)`.
-- Eigennamen werden nicht ausgezeichnet.
+- Eigennamen und Werktitel werden nicht ausgezeichnet.
 - chinesische Fremdwörter werden nicht ausgezeichnet.
 
 === Japanisch/表記
@@ -137,17 +137,17 @@ Ist das eine Frage?
 --------------------------------------
 müde; schläfrig.
 --------------------------------------
-- Einzelne Bedeutungen sind durch `[n]` (n = fortlaufende natürliche Zahl, beginnend bei 1) zu trennen.
+- Einzelne Bedeutungen sind durch `[n]` (`n` = fortlaufende natürliche Zahl, beginnend bei 1) zu trennen.
 +
 --------------------------------------
 [1] Bedeutung 1. [2] Bedeutung 2. … [n] Bedeutung n.
 --------------------------------------
-- Bedeutungen mit semantischer Nähe sind durch `//`` zu trennen.
+- Bedeutungen mit semantischer Nähe sind durch `//` zu trennen.
 +
 --------------------------------------
 Backen. // Bäcker.
 --------------------------------------
-- Bei mehreren Wortarten eines Lemmas sind die Bedeutungen durch `[X]` (X = fortlaufender Großbuchstabe, beginnend bei A) zu trennen. Dabei ist die korrespondierende Wortart in einem `<Descr.: >`-Element anzugeben.
+- Bei mehreren Wortarten eines Lemmas sind die Bedeutungen durch `[X]` (`X` = fortlaufender Großbuchstabe, beginnend bei A) zu trennen. Dabei ist die korrespondierende Wortart in einem `<Descr.: >`-Element anzugeben.
 +
 --------------------------------------
 [A] (<Descr.: als Wortart 1>) Bedeutung 1. [B] (<Descr.: als Wortart 2>) Bedeutung 2.
@@ -175,15 +175,16 @@ f:: feminin, weiblich.
 
 * Numerus/数
 [horizontal]
-pl:: Plural, Mehrzahl.
+pl:: Plural, Mehrzahl; Pluraletantum.
 +
-Ein Pluraletantum wird ohne Genus nur mit Numerus gekennzeichnet.
+Ein Pluraletantum wird ohne Genus nur mit Numerus `pl` gekennzeichnet.
 +
 --------------------------------------
 Kosten{pl}
 Kosten<Gen.: pl>
 <HW pl: Kosten>
 --------------------------------------
+sg:: Singularetantum.
 
 * Artikelverwendung/冠詞の使用
 +
