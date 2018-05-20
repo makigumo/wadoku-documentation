@@ -78,6 +78,7 @@ Suche nach Einträgen, die eine Referenz auf einen anderen Eintrag enthalten.
 `tail`:: Ende eines Kompositums.
 `sa`:: Nominalisierung mit さ.
 `suru`:: Ableitung mit する.
+`saseru`:: Ableitung mit させる.
 `shite`:: Ableitung mit して.
 `shita`:: Ableitung mit した.
 `teki`:: Ableitung mit 的.
