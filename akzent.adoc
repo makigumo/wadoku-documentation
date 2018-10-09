@@ -6,5 +6,6 @@ v1.0, 2015-08-19
 Der Wortakzent im Japanischen beschränkt sich im wesentlichen auf einen Hoch-Tief- oder
 Tief-Hoch-Wechsel.
 
+// 頭高型は「1」、平板型は「0」
 Der Standardakzent, auch Flachakzent, (平板〈式／型（ガタ）〉アクセント) ist ein Tief-Hoch-Wechsel auf der ersten Mora, markiert mit dem
 Wert 0.

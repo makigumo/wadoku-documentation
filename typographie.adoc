@@ -36,11 +36,17 @@ Unicode-Wert: 0x2013 EN DASH
 
 == Apostroph
 
-Verwendung des typographischen Apostrophs `’`.
-
-Unicode-Wert: 0x2019 RIGHT SINGLE QUOTATION MARK
+* im Deutschtext
+** Verwendung des typographischen Apostrophs `’`.
+** Unicode-Wert: 0x2019 RIGHT SINGLE QUOTATION MARK
 
  wen’ge, Hans’ Auto
+
+* für japanische Transkription, als Markierung von Morengrenzen bzw. einer Nichtnasalisierung.
+** Verwendung des Ejektiv-Zeichens `ʼ`.
+** Unicode-Wert: 0x02BC MODIFIER LETTER APOSTROPHE
+
+ Shinʼya
 
 == Nakaten
 

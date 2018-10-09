@@ -22,7 +22,7 @@ image:notation.png[Notationsbeispiel,role="related"]
 2. (optionale) numerische Angabe des Morenakzents
   * aktuell dargestellter Morenakzent in [blue]#Blau#.
   * durch Klick auf grau unterlegte Akzentangaben umschaltbare Darstellung des Akzentverlaufs.
-3. Lesungshilfe in Rōmaji (vgl. <<Umschrift>>)
+3. Lesungshilfe in Rōmaji (vgl. <<Umschrift#umschrift>>)
 4. Schlagwort in japanischer Schreibung (Kanji, Kana) ggf. mit zusätzlichen Markierungen.
   * [blue]#×# bzw. [blue]#╳# (Kreuz) folgendes Kanji gehört nicht zu den Jōyō-Kanji (常用漢字表).
   ** nach dem Standard von 2010 ((改定)常用漢字表).

@@ -113,3 +113,16 @@ Der Suchterm kann durch folgende Operatoren qualifiziert werden.
 `+`:: Term ist enthalten.
 `-`:: Term ist nicht enthalten.
 `"`:: Term in doppelten Anführungszeichen wird als Ganzes gesucht, z.B. bei Phrasen.
+
+=== Akzentwertsuche ===
+
+Suche nach Einträgen, die einen bestimmten Akzentwert tragen.
+
+`accent:Akzentwert`
+
+Als Akzentwert sind die normal verwendeten Angaben zulässig (Zahlen und `—`),
+zusätzlich auch die folgenden Sonderwerte.
+
+[horizontal]
+`any`:: Suche alle Einträge mit Akzentwertangaben.
+`*`:: Suche alle Einträge mit Akzentwertangaben.

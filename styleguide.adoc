@@ -3,7 +3,7 @@ Dan
 v1.0, 2015-07-19
 :toc:
 
-Stilistische Richtlinien für das Verfassen von Einträgen.
+Stilistische Richtlinien für das Verfassen von Einträgen. Insbesondere für Erläuterungstexte.
 
 == Ortsnamen, Stadtnamen, Gebietsnamen
 
@@ -45,3 +45,7 @@ Klassifikationsendungen werden weggelassen.
 NOTE: von Tōkyō: Verwaltungsbezirk
 町(名):: Stadtviertel
 地(名):: Stadtteil
+
+== Kulinarisches
+
+* Soße
