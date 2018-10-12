@@ -126,3 +126,5 @@ zusätzlich auch die folgenden Sonderwerte.
 [horizontal]
 `any`:: Suche alle Einträge mit Akzentwertangaben.
 `*`:: Suche alle Einträge mit Akzentwertangaben.
+`none`:: Suche alle Einträge ohne Akzentwertangaben.
+
