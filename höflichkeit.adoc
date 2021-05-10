@@ -51,4 +51,4 @@ TIP: Angabe als '「…」を丁寧にいう語' usw.
 == Bibliographie
 
 [bibliography]
-- [[[keigo-guide]]] http://keigo.bunka.go.jp/guide.pdf[「敬語の指針」], 2007, The Agency for Cultural Affairs.
+- [[[keigo-guide]]] https://www.bunka.go.jp/seisaku/bunkashingikai/kokugo/hokoku/pdf/keigo_tosin.pdf[「敬語の指針」], 2007, The Agency for Cultural Affairs.
