@@ -51,6 +51,7 @@ image:notation.png[Notationsbeispiel,role="related"]
 * [blue]#►# Verwendung am Anfang eines Kompositums.
 * [blue]#◀# Verwendung am Ende eines Kompositums.
 * [blue]#◇# Verwendungsbeispiele, Beispielsätze usw.
+* [blue]#★# Redewendungen.
 
 [[umschrift]]
 == Umschrift/Transkription
