@@ -1,4 +1,6 @@
 = Suche =
+:toc:
+:toc-title: Übersicht
 
 == Einfache Suche ==
 
@@ -39,6 +41,8 @@ Folgende Filter stehen allen Nutzern zur Verfügung.
 - `hyokibegins:Schreibung am Wortanfang`, z.B. `hyokibegins:超`
 - `hyokiends:Schreibung am Wortende`, z.B. `hyokiends:性`
 - `yomi:Lesung`, z.B. `yomi:にほん`
+- `yomibegins:Lesung am Wortanfang`, z.B. `yomibegins:に`
+- `yomiends:Lesung am Wortende`, z.B. `yomiends:ん`
 - `etym:(Herkunftssprache|Herkunftswort)`, z.B. `etym:Dtsch.` oder `etym:lucky`
 
 === Suche nach selbst angelegten Einträgen (registrierte Nutzer) ===
@@ -113,6 +117,16 @@ Der Suchterm kann durch folgende Operatoren qualifiziert werden.
 `+`:: Term ist enthalten.
 `-`:: Term ist nicht enthalten.
 `"`:: Term in doppelten Anführungszeichen wird als Ganzes gesucht, z.B. bei Phrasen.
+
+=== XML-Suche ===
+
+Suche nach Einträgen, die ein XML-Fragment enthalten.
+
+`XML:Suchterm`
+
+Zur Suche nach bestimmten Auszeichnungen, z.B.
+[horizontal]
+`xml:–</birthdeath>`:: Personen ohne Sterbejahr
 
 === Akzentwertsuche ===
 

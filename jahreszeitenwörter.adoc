@@ -7,9 +7,10 @@ Die Markierung von Jahreszeitenwörtern erfolgt auf Bedeutungsebene.
 
 == Format
 
-```
+[source]
+----
 <SeasonW %part%: %season%>
-```
+----
 
 === Pflanzenteile `%part%`
 

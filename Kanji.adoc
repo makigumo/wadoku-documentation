@@ -1,32 +1,32 @@
-# Die sechs klassischen Kanjikategorien (漢字の六書/六義)
+= Die sechs klassischen Kanjikategorien (漢字の六書/六義)
 
-## 象形
+== 象形
 
 Piktogramme.
 
-## 指事
+== 指事
 
 Symbole, (einfache) Ideogramme, Logogramme.
 
-## 会意
+== 会意
 
 zusammengesetzte Ideogramme/Piktogramme
 
 Zeichen die aus zwei oder mehr Zeichen mit verschiedenen Bedeutungen zusammengesetzt sind und deren Inhalt mit dem neuen Gesamtinhalt zusammenhängt.
 
-## 形声（諧声） phono-semantic compound
+== 形声（諧声） phono-semantic compound
 
 Zeichen, die aus einem lautgebenden (Phonetikum) und einem bedeutungsgebenden Element (Signifikum) zusammengesetzt sind
 Zeichen die aus einem laut- und einem bedeutungsandeutenden Zeichen zusammengesetzt sind.
 Phonogramme.
 
-## 転注 derivative cognates
+== 転注 derivative cognates
 
 Synonyme.
 Zeichen, die eine ähnliche Bedeutung (und evtl. Aussprache) haben
 und eine dezente graphische Variation eines jeweils anderen Zeichens sind.
 
-## 仮借（かしや) rebus/phonetic loan words
+== 仮借（かしや) rebus/phonetic loan words
 
 ‚falsche’ Entlehnungen.
 Zeichen die wegen gleicher Lautung für eine andere Bedeutung verwendet werden.
@@ -34,7 +34,7 @@ Es handelt sich hierbei zumeist um Zeichen der ersten Kategorie, die dann für e
 Abstraktum mit der gleichen oder einer ähnlichen Aussprache ‚entliehen’ wurden.
 Auch eine semantische Entlehnung ist denkbar.
 
-## Quellen
+== Quellen
 
 - http://opus.hbk-bs.de/files/181/Dissertation_Mariko-Takagi.pdf
 - http://www.ruhr-uni-bochum.de/oaw/dvcs/dokumente/schalmey.pdf
