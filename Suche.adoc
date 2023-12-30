@@ -104,6 +104,8 @@ Suche nach Einträgen, die eine Referenz auf einen anderen Eintrag enthalten.
 `XSatz`:: Beispielsatz.
 `ZSprW`:: Sprichwort.
 `other`:: Unspezifizierter Typ.
+`any`, `*`:: Beliebiger Typ.
+`none`:: ohne Referenz.
 
 === Volltextsuche im XML ===
 
